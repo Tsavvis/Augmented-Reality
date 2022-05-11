@@ -37,26 +37,28 @@
 
 <!-- deliverable 2 -->
 
+        <!--dpsd marker-->
         <a-marker type="pattern" url="assets/pattern-dpsd19115_marker.patt">
 
 
            <a-entity rotation="-90 0 0" position="0 0 0" >
 
-           <a-text value="Savvidis Theofilos" font="exo2bold" color="yellow" rotation="0 0 0" align="center" position="0 3 0"></a-text>
            <a-image src="assets/IMG_20200427_143815_HDR.jpg" posiotion="0 0 0" width="1" height="1"> </a-image>
+           <a-text value="Savvidis Theofilos" rotation="-90 0 0" font="exo2bold" color="yellow"  align="center" position="0 1 0"></a-text>
 
            </a-entity>
 
         </a-marker>
 
-        
+        <!--Oxygen marker-->
     <a-marker id="O" type="pattern" url="assets/pattern-card-Oxygen.patt">
 
         <a-image src="assets/card-O.png" position="0 0 0" rotation="-90 0 0" width="1" height="1"></a-image>
         <a-entity gltf-model="assets/oxygen_animation.glb" position="0 0.7 0" scale="0.5 0.5 0.5" animation-mixer="clip: *; loop: repeat;"></a-entity>
 
     </a-marker>
-
+    
+      <!--hydrogen marker-->
     <a-marker id="H" type="pattern" url="assets/pattern-card-Hydrogen.patt">
 
         <a-image src="assets/card-Η.png" position="0 0 0" rotation="-90 0 0" width="1" height="1"></a-image>
