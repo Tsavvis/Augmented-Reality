@@ -35,11 +35,14 @@
 
         </a-marker>
 
-<!-- deliverable 2 -->
+<!-- DELIVERABLE 2 -->
 
-        <!--dpsd marker-->
+        <!--DPSD19115 MARKER-->
         <a-marker type="pattern" url="assets/pattern-dpsd19115_marker.patt">
 
+            <!--τοποθετώ την εικόνα και το text με το ονομά μου στο ίδιο entity. Αρχικά, το rotation του κειμένου δεν εβγαινε
+                σωστό και κατέληγε να είναι κάθετο με την κάμερα με αποτέλεσμα να μη φαινεται εύκολα. Έπειτα απλά άλλαξα την σειρά εμφανισής τους 
+            που απ ότι φάνηκε στα τεστ που έκανα, λειτουργεί-->
            <a-entity rotation="-90 0 0" position="0 0 0" >
 
            <a-image src="assets/IMG_20200427_143815_HDR.jpg" position="0 0 0" width="1" height="1"> </a-image>
@@ -49,19 +52,36 @@
 
         </a-marker>
 
-        <!--Oxygen marker-->
+
+        <a-assets>
+
+            <!--εδω δηλώνονται τα gltf αρχεια που αναφερονται αργότερα και θα κληθούν από κάθε μάρκερ-->
+             <a-asset-item id="O_animation" src="assets/oxygen_animation.glb"></a-asset-item>
+             <a-asset-item id="H_animation" src="assets/Hydrogen_animation.glb"></a-asset-item>
+
+        </a-assets>
+        <!--OXYGEN MARKER-->
     <a-marker id="O" type="pattern" url="assets/pattern-card-Oxygen.patt">
 
+        <!--periodic table image of oxygen-->
         <a-image src="assets/card-O.png" position="0 0 0" rotation="-90 0 0" width="1" height="1"></a-image>
-        <a-entity gltf-model="assets/oxygen_animation.glb" position="0 0.7 0" scale="0.5 0.5 0.5" animation-mixer="clip: *; loop: repeat;"></a-entity>
+
+        <!--3D model and animation of oxygen, οπως και με το υδρογώνο , έχω συνδεσει τα entities με τα gltf αρχεια που δημιουργησα με blender. 
+            Δυστυχώς όταν το δοκιμάζω δε φαινεται να λειτουργουν.
+        Μετά απο έρευνα βρηκα ότι έπρεπε να δηλωσω τα gltf αρχεια μου σαν διαφορετικό entity και στο <!a-assets>, ωστε να μπορω να τα καλλέσω μετά 
+    σαν συναρτήσεις στο κάθε μάρκερ--> 
+        <a-entity gltf-model="#O_animation" position="0 0.7 0" scale="0.3 0.3 0.3"></a-entity>
 
     </a-marker>
     
-      <!--hydrogen marker-->
+      <!--HYDROGEN MARKER-->
     <a-marker id="H" type="pattern" url="assets/pattern-card-Hydrogen.patt">
 
-        <a-image src="assets/card-Η.png" position="0 0 0" rotation="-90 0 0" width="1" height="1"></a-image>
-        <a-entity gltf-model="assets/Hydrogen_animation.glb" position="0 0.7 0" scale="0.5 0.5 0.5" animation-mixer="clip: *; loop: repeat;"></a-entity>
+        <!--periodic table image of hydrogen-->
+        <a-image src="assets/card-H.png" position="0 0 0" rotation="-90 0 0" width="1" height="1"></a-image> 
+
+        <!--3D model and animation of hydrogen-->
+        <a-entity gltf-model="#H_animation" position="0 0.7 0" scale="0.3 0.3 0.3"></a-entity> 
 
     </a-marker>
 
