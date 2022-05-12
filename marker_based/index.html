@@ -11,6 +11,7 @@
     <!-- speech command component -->
     <script src="//cdnjs.cloudflare.com/ajax/libs/annyang/2.5.0/annyang.min.js"></script>
     <script src="build/aframe-speech-command-component.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v6.1.1/dist/aframe-extras.min.js"></script>
 
     <body style="margin : 0px; overflow: hidden;">
         <a-scene
@@ -56,10 +57,12 @@
         <a-assets>
 
             <!--εδω δηλώνονται τα gltf αρχεια που αναφερονται αργότερα και θα κληθούν από κάθε μάρκερ-->
-             <a-asset-item id="O_animation" src="assets/oxygen_animation.glb"></a-asset-item>
-             <a-asset-item id="H_animation" src="assets/Hydrogen_animation.glb"></a-asset-item>
+             <a-asset-item id="O_animation" src="assets/oxygen_animation.gltf"></a-asset-item>
+             <a-asset-item id="H_animation" src="assets/Hydrogen_animation.gltf"></a-asset-item>
 
         </a-assets>
+
+
         <!--OXYGEN MARKER-->
     <a-marker id="O" type="pattern" url="assets/pattern-card-Oxygen.patt">
 
@@ -74,7 +77,7 @@
             σαν συναρτήσεις στο κάθε μάρκερ.--> 
 
         <!--να σημειωθεί οτι το id τελικά αποδείχτηκε απαραιτητο-->
-        <a-entity id="oxygen_animation" gltf-model="#O_animation" position="0 0 0" animation-mixer></a-entity>
+        <a-entity id="oxygen_animation" gltf-model="#O_animation" position="0 0 0" animation-mixer="clip: *; loop: repeat; timescale: 3;"></a-entity>
 
     </a-marker>
     
@@ -85,7 +88,7 @@
         <a-image src="assets/card-H.png" position="0 0 0" rotation="-90 0 0" width="1" height="1"></a-image> 
 
         <!--3D model and animation of hydrogen-->
-        <a-entity id="Hydrogen_animation" gltf-model="#H_animation" position="0 0 0"  animation-mixer></a-entity> 
+        <a-entity id="Hydrogen_animation" gltf-model="#H_animation" position="0 0 0"  animation-mixer="clip: *; loop: repeat; timescale: 3;"></a-entity> 
 
     </a-marker>
 
