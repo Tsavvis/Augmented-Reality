@@ -66,11 +66,15 @@
         <!--periodic table image of oxygen-->
         <a-image src="assets/card-O.png" position="0 0 0" rotation="-90 0 0" width="1" height="1"></a-image>
 
-        <!--3D model and animation of oxygen, οπως και με το υδρογώνο , έχω συνδεσει τα entities με τα gltf αρχεια που δημιουργησα με blender. 
-            Δυστυχώς όταν το δοκιμάζω δε φαινεται να λειτουργουν.
-        Μετά απο έρευνα βρηκα ότι έπρεπε να δηλωσω τα gltf αρχεια μου σαν διαφορετικό entity και στο <!a-assets>, ωστε να μπορω να τα καλλέσω μετά 
-    σαν συναρτήσεις στο κάθε μάρκερ--> 
-        <a-entity gltf-model="#O_animation" position="0 0.7 0" scale="0.3 0.3 0.3"></a-entity>
+        <!--3D model and animation of oxygen-->
+        <!--οπως και με το υδρογώνο , έχω συνδεσει τα entities με τα gltf αρχεια που δημιουργησα με blender. 
+            Δυστυχώς όταν το δοκιμάζω δε φαινεται να λειτουργουν.-->
+
+        <!--Μετά απο έρευνα βρηκα ότι έπρεπε να δηλωσω τα gltf αρχεια μου σαν διαφορετικό entity και στο <!a-assets>, ωστε να μπορω να τα καλλέσω μετά 
+            σαν συναρτήσεις στο κάθε μάρκερ.--> 
+
+        <!--να σημειωθεί οτι το id τελικά αποδείχτηκε απαραιτητο-->
+        <a-entity id="oxy" gltf-model="#O_animation" position="0 0.7 0" scale="0.3 0.3 0.3"></a-entity>
 
     </a-marker>
     
@@ -81,7 +85,7 @@
         <a-image src="assets/card-H.png" position="0 0 0" rotation="-90 0 0" width="1" height="1"></a-image> 
 
         <!--3D model and animation of hydrogen-->
-        <a-entity gltf-model="#H_animation" position="0 0.7 0" scale="0.3 0.3 0.3"></a-entity> 
+        <a-entity id="hydro" gltf-model="#H_animation" position="0 0.7 0" scale="0.3 0.3 0.3"></a-entity> 
 
     </a-marker>
 
