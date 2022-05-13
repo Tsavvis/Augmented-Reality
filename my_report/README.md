@@ -29,13 +29,9 @@
 Ανάλυση τελικού παραδοτέου:<br />
 Στα πλαίσια κατασκευής του δεύτερου παραδοτέου η διαδικασία ακολούθησε την εξής ροή. Αρχικά, έγινε δημιουργία των απαραίτητων markers μέσω του σύνδεσμου: https://aframe.io/docs/1.3.0/components/gltf-model.html<br />
 
-<p align="center">
+<p align="left">
 <img src="pattern-dpsd19115_marker.png" width="200" height="200">
-</p>
-<p align="center">
 <img src="pattern-card-Oxygen.png" width="200" height="200">
-</p>
-<p align="center">
 <img src="pattern-card-H.png" width="200" height="200">
 </p>
 Έπειτα, έγινε το ανέβασμα των εικόνων στον φάκελο assets και ταυτοχρονα ξεκίνησε η δημιουργλια του κώδικα.<br />
