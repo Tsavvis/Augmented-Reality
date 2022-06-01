@@ -7,6 +7,23 @@
     <script src="https://aframe.io/releases/0.9.2/aframe.min.js"></script>
     <!-- <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar-nft.js"></script>-->
     <script src='build/aframe-ar-nft.js'></script>
+
+    <script>
+    
+    AFRAME.registerComponent("text-show", {
+        init: function() {
+        let toggle = false
+          this.el.addEventListener("click", (e) => {
+            let text = document.querySelectorAll(".clickable")
+            text.forEach(function(el) {
+                el.setAttribute("visible", toggle)
+            })
+            toggle = !toggle
+          })
+        }
+      })
+      
+      </script>
 </head>
 
 
@@ -16,15 +33,34 @@
 		embedded
 		arjs='sourceType: webcam; debugUIEnabled: false;'>
 
-        <a-box
-            material="color: red;"
-            scale="20 20 20"
-            gps-entity-place="latitude: 44.506477; longitude: 11.301524;">
-        </a-box>
+        <!-- DELIVERABLE 3 -->
+        
+        <!-- Προσθέτω το 3d μοντελο του Λευκού Πύργου το οποίο θα κληθεί στη συνέχεια από το box-->
+        <a-assets> 
+            <a-asset-item id="WT" src="assets/scene.gltf"></a-asset-item>
+        </a-assets>
+
+        <a-entity id="White_Tower_model" 
+            scale="2 2 2"
+            gltf-model="#WT" 
+            gps-entity-place="latitude: 37.445319; longitude: 24.941741;"
+            animation__rotate = "property: rotation; dur: 5000; easing: linear; dir: normal; from:0 0 0; to: 0 360 0; loop: true;">
+        </a-entity>
+
+    <!--  Προσαρμόζω το κείμενο ώστε να κοιτάζει συνεχώς τον χρήστη. Ταυτοχρονα το συνδέω μεσω της κλάσσης clickable στην aframe, ωστε να μπορεί , 
+        οταν γινεται κλικ στο 3d μοντελο, να εμφανλιζει το κείμενο-->
+
+        <a-text value="The White Tower of Thessaloniki" class="clickable"
+            look-at="[gps-camera]" 
+            scale="20 20 20" 
+            color="#d1c092"
+            gps-entity-place="latitude: 37.445319; longitude: 24.941741;">
+        </a-text>
+
 
         <a-camera
             rotation-reader
-            gps-camera="simulateLatitude: 44.504348; simulateLongitude: 11.301027; minDistance: 1; maxDistance: 700;"
+            gps-camera="simulateLatitude: 37.445319; simulateLongitude: 24.941741; minDistance: 1; maxDistance: 700;"
         >
 		</a-camera>
 	</a-scene>
