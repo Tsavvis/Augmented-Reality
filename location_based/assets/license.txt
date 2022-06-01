@@ -1,0 +1,11 @@
+Model Information:
+* title:	White tower of Thessaloniki
+* source:	https://sketchfab.com/3d-models/white-tower-of-thessaloniki-26250621fb6a4e0c8268984c4a24fee6
+* author:	vasileia_petraki (https://sketchfab.com/vasileia_petraki)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "White tower of Thessaloniki" (https://sketchfab.com/3d-models/white-tower-of-thessaloniki-26250621fb6a4e0c8268984c4a24fee6) by vasileia_petraki (https://sketchfab.com/vasileia_petraki) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
