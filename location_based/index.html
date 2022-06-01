@@ -40,7 +40,8 @@
             <a-asset-item id="WT" src="assets/scene.gltf"></a-asset-item>
         </a-assets>
 
-        <a-entity id="White_Tower_model" 
+        <a-entity id="White_Tower_model"   
+            position="0 0 -100"
             scale="2 2 2"
             gltf-model="#WT" 
             gps-entity-place="latitude: 37.445319; longitude: 24.941741;"
@@ -52,6 +53,7 @@
 
         <a-text value="The White Tower of Thessaloniki" class="clickable"
             look-at="[gps-camera]" 
+            position="0 0 0"
             scale="20 20 20" 
             color="#d1c092"
             gps-entity-place="latitude: 37.445319; longitude: 24.941741;">
