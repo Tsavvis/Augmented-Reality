@@ -1,0 +1,388 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 39595,
+      "max": [
+        1.411126971244812,
+        -0.015629999339580536,
+        1.6396470069885254
+      ],
+      "min": [
+        -0.8465409874916077,
+        -4.42619514465332,
+        -0.6947100162506104
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 475140,
+      "componentType": 5126,
+      "count": 39595,
+      "max": [
+        0.9952989816665649,
+        0.9998356699943542,
+        0.9999986290931702
+      ],
+      "min": [
+        -0.9996422529220581,
+        -0.9999687671661377,
+        -0.9999947547912598
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 39595,
+      "max": [
+        0.9899370074272156,
+        0.9994270205497742
+      ],
+      "min": [
+        0.0007169999880716205,
+        0.0045779999345541
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 220944,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 950280,
+      "componentType": 5126,
+      "count": 15757,
+      "max": [
+        1.411126971244812,
+        -0.01992099918425083,
+        1.6396470069885254
+      ],
+      "min": [
+        -0.8465409874916077,
+        -4.42619514465332,
+        -0.661907970905304
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 1139364,
+      "componentType": 5126,
+      "count": 15757,
+      "max": [
+        0.9961792230606079,
+        0.9998356699943542,
+        0.9979764819145203
+      ],
+      "min": [
+        -0.9999771118164063,
+        -0.9999657869338989,
+        -0.9912344813346863
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 316760,
+      "componentType": 5126,
+      "count": 15757,
+      "max": [
+        1.7079880237579346,
+        0.9994019865989685
+      ],
+      "min": [
+        1.000702977180481,
+        0.015561999753117561
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 883776,
+      "componentType": 5125,
+      "count": 84117,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 1328448,
+      "componentType": 5126,
+      "count": 14301,
+      "max": [
+        1.411126971244812,
+        -0.0796080008149147,
+        1.3893409967422485
+      ],
+      "min": [
+        -0.7875480055809021,
+        -4.418331146240234,
+        -0.6341609954833984
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 1500060,
+      "componentType": 5126,
+      "count": 14301,
+      "max": [
+        0.9999935030937195,
+        0.9998356699943542,
+        0.9700928926467896
+      ],
+      "min": [
+        -0.9863777756690979,
+        -0.999911367893219,
+        -0.9912344813346863
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 442816,
+      "componentType": 5126,
+      "count": 14301,
+      "max": [
+        2.4143030643463135,
+        0.9994540214538574
+      ],
+      "min": [
+        2.000607967376709,
+        0.1348399966955185
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 1220244,
+      "componentType": 5125,
+      "count": 78882,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "vasileia_petraki (https://sketchfab.com/vasileia_petraki)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/white-tower-of-thessaloniki-26250621fb6a4e0c8268984c4a24fee6",
+      "title": "White tower of Thessaloniki"
+    },
+    "generator": "Sketchfab-12.66.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 1535772,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 557224,
+      "byteOffset": 1535772,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1671672,
+      "byteOffset": 2092996,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 3764668,
+      "uri": "scene.bin"
+    }
+  ],
+  "extensionsUsed": [
+    "KHR_materials_unlit"
+  ],
+  "images": [
+    {
+      "uri": "textures/THESSALONIKI_tex0_baseColor.jpeg"
+    },
+    {
+      "uri": "textures/THESSALONIKI_tex1_baseColor.jpeg"
+    },
+    {
+      "uri": "textures/THESSALONIKI_tex2_baseColor.jpeg"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "name": "THESSALONIKI_tex0",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0
+      }
+    },
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "name": "THESSALONIKI_tex1",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 1
+        },
+        "metallicFactor": 0.0
+      }
+    },
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "name": "THESSALONIKI_tex2",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 2
+        },
+        "metallicFactor": 0.0
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Object_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Object_1",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Object_2",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 9,
+            "POSITION": 8,
+            "TEXCOORD_0": 10
+          },
+          "indices": 11,
+          "material": 2,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2,
+        3,
+        4
+      ],
+      "name": "THESSALONIKI.TEL.obj.cleaner.materialmerger.gles"
+    },
+    {
+      "mesh": 0,
+      "name": "Object_2"
+    },
+    {
+      "mesh": 1,
+      "name": "Object_3"
+    },
+    {
+      "mesh": 2,
+      "name": "Object_4"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}
