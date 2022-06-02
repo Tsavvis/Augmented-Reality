@@ -8,14 +8,9 @@
     <!-- <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar-nft.js"></script>-->
     <script src='build/aframe-ar-nft.js'></script>
 
+    <script>
     
-    
-    
-</head>
-
-<script>
-
-AFRAME.registerComponent("text_show", {
+    AFRAME.registerComponent("text_show", {
         init: function() {
         let toggle = false
           this.el.addEventListener("click", (e) => {
@@ -28,7 +23,9 @@ AFRAME.registerComponent("text_show", {
         }
       })
       
-</script>
+      </script>
+</head>
+
 
 <body style='margin: 0; overflow: hidden;'>
     <a-scene
@@ -51,7 +48,7 @@ AFRAME.registerComponent("text_show", {
 
         <a-entity id="White_Tower_model" class="click"
             position="0 0 -180"
-            scale="1 1 1"
+            scale="0.5 0.5 0.5"
             gltf-model="#WT" 
             animation__rotate = "property: rotation; dur: 5000; easing: linear; dir: normal; from:0 0 0; to: 0 360 0; loop: true;"
             gps-entity-place="latitude: 37.445319; longitude: 24.941741;"
@@ -63,7 +60,7 @@ AFRAME.registerComponent("text_show", {
 
         <a-text id="texttext" value="The White Tower of Thessaloniki" class="clickable"
             look-at="[gps-camera]" 
-            position="0 0 20"
+            position="0 0 -80"
             scale="10 10 10" 
             color="#d1c092"
             visible="false">
