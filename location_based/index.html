@@ -34,11 +34,17 @@
 		arjs='sourceType: webcam; debugUIEnabled: false;'>
 
         <!-- DELIVERABLE 3 -->
-        
+
+
         <!-- Προσθέτω το 3d μοντελο του Λευκού Πύργου το οποίο θα κληθεί στη συνέχεια από το entity-->
         <a-assets> 
             <a-asset-item id="WT" src="assets/scene.gltf"></a-asset-item>
         </a-assets>
+
+
+        <a-entity id="cameraRig">
+            <a-entity id="head" camera wasd-controls look-controls cursor="rayOrigin: mouse" position="0 1.6 0"></a-entity>
+          </a-entity> 
 
         <a-entity id="White_Tower_model" class="click"
             position="0 0 -180"
@@ -55,9 +61,9 @@
         <a-text id="texttext" value="The White Tower of Thessaloniki" class="clickable"
             look-at="[gps-camera]" 
             position="0 0 0"
-            scale="20 20 20" 
+            scale="10 10 10" 
             color="#d1c092"
-            gps-entity-place="latitude: 37.445319; longitude: 24.941741;">
+            visible="false">
         </a-text>
 
 
@@ -68,4 +74,3 @@
 		</a-camera>
 	</a-scene>
 </body>
-
