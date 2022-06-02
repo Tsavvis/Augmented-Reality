@@ -83,8 +83,31 @@ https://aframe.io/docs/1.3.0/components/gltf-model.html<br />
 https://github.com/stemkoski/AR.js-examples<br />
 
 # 3rd Deliverable 
+<p>
+ Το συγεκριμενο κομμάτι της εργασίας με δυσκόλεψε από την άποψη ότι δεν εμφανιζόταν το 3D μοντελο. Αρχικό πρόβλημα ήταν ότι είχα τοποθετήσει το τις συντεταγμενες του simulate στο ίδιο σήμείο με τις συντεταγμενες του μοντελου. Αφού τις άλλαξα είχα την μόνη ευκαιρία να βγαλώ καποιο screenshot όπου φαινεται το μοντελο, αλλά δε το έκανα γιατι θεώρησα ότι απο δω και περα θα δουλεύει. Δυστυχώς, το μοντέλο δε ξαναεμφανίστηκε παρόλο που δεν άλλαξα τίποτε στον κώδικά του.
+ </p>
+ 
+ <br/>
+ Οι κώδικες που φαίνονται στα ακόλουθα σκρινσοτ, πάρθηκαν από τα site των sources και έχουν προσαρμωστεί για την εργασία
+ <br/>
+ <p align="left">
+ <img src="code_sc1.jpg">
+ <img src="code_sc2.jpg">
+ <img src="code_sc3.jpg">
+ </p>
+ <br/>
+ 
+ 
+ **Βιβλιογραφία**
 
-
+[https://aframe.io/docs/1.3.0/components/gltf-model.html](https://stackoverflow.com/questions/56465829/interaction-with-aframe-click-to-show)<br />
+[https://github.com/stemkoski/AR.js-examples](https://github.com/AR-js-org/AR.js/blob/master/aframe/examples/location-based/always-face-user/index.html)<br />
+https://ar-js-org.github.io/AR.js-Docs/location-based-tutorial/<br/>
+https://ar-js-org.github.io/AR.js-Docs/location-based/#events <br/>
+https://aframe.io/docs/1.3.0/components/cursor.html <br/>
+Επίσης ο υπολογισμός των συντεταγμένων εγινέ από εδώ<br/>
+ https://www.latlong.net/<br/>
+ 
 # Conclusions
 
 
